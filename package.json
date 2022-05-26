@@ -1,0 +1,58 @@
+{
+  "name": "egg-tencent-cloud-with-sms",
+  "version": "1.0.0",
+  "description": "",
+  "eggPlugin": {
+    "name": "tencentCloudSms"
+  },
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "tencentcloud-sdk-nodejs": "^4.0.347"
+  },
+  "devDependencies": {
+    "autod": "^3.0.1",
+    "autod-egg": "^1.1.0",
+    "egg": "^2.16.0",
+    "egg-bin": "^4.11.0",
+    "egg-ci": "^1.11.0",
+    "egg-mock": "^3.21.0",
+    "eslint": "^5.13.0",
+    "eslint-config-egg": "^7.1.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "egg-bin pkgfiles --check && npm run lint && npm run cov",
+    "pkgfiles": "egg-bin pkgfiles",
+    "autod": "autod"
+  },
+  "files": [
+    "app.js",
+    "agent.js",
+    "config",
+    "app"
+  ],
+  "ci": {
+    "version": "8, 10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sothx/egg-tencent-cloud-with-sms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sothx/egg-tencent-cloud-with-sms/issues"
+  },
+  "homepage": "https://github.com/sothx/egg-tencent-cloud-with-sms#readme",
+  "author": "",
+  "license": "MIT"
+}
