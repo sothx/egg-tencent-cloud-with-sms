@@ -1,6 +1,6 @@
 {
   "name": "egg-tencent-cloud-with-sms",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "eggPlugin": {
     "name": "tencentCloudSms"
@@ -40,7 +40,8 @@
     "app.js",
     "agent.js",
     "config",
-    "app"
+    "app",
+    "lib"
   ],
   "ci": {
     "version": "8, 10"
