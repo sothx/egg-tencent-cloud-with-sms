@@ -57,6 +57,9 @@ exports.tencentCloudSms = {
 
 - 可以使 Egg.js 快速集成腾讯云短信
 
+- 使用更现代的 Promise 或 Async/Await 的方式来调用
+
+
 ## 详细配置
 
 ### 插件配置
